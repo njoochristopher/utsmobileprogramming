@@ -104,7 +104,6 @@ class CreditCardsPage extends StatelessWidget {
       color: color,
       child: Container(
         height: 200,
-        width: 150,
         String: cardNumber;
         String: cardHolder;
         String: cardExpiration;
@@ -129,10 +128,6 @@ class CreditCardsPage extends StatelessWidget {
     );
   }
 
-  Container _buildDetailsBlock() {
-
-  }
-  
   Container _buildAddCardButton() {
     home: Scaffold(
       myApp: MyApp()(
@@ -144,6 +139,10 @@ class CreditCardsPage extends StatelessWidget {
 
             },
           ),
+          Color<widget>[
+            const color: Colors.black;
+            const color: Colors.red;
+          ],
         ],
       ),
     );
