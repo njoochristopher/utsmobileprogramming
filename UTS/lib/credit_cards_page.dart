@@ -104,6 +104,7 @@ class CreditCardsPage extends StatelessWidget {
       color: color,
       child: Container(
         height: 200,
+        width: 150,
         String: cardNumber;
         String: cardHolder;
         String: cardExpiration;
